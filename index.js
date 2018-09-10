@@ -3,6 +3,6 @@ function BoardMember(name, homeState, training){
     this.homeState = homeState;
     this.training = training;
     this.veto = function() {
-        returns `No, I must disaggree`
+        return `No, I must disaggree`
     };
 }
